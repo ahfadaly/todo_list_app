@@ -31,7 +31,7 @@ function TodoList() {
 
   return (
     <div className="col-md-6 m-auto mt-5 pt-5 p-3">
-      <h4 className="bg-secondary text-white p-2 w-100 rounded-2">Todo List</h4>
+      <h4 className="bg-secondary text-white p-2 w-100 rounded-2 mt-5">Todo List</h4>
       <div className="input-group">
         <input
           type="text"

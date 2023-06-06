@@ -1,10 +1,10 @@
 import "./App.css";
-import TodoList from "./component/TodoList";
+import LoadingPage from "./component/LoadingPage";
 
 function App() {
   return (
     <div className="App">
-      <TodoList />
+      <LoadingPage />
     </div>
   );
 }
