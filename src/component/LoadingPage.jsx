@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import TodoList from "./TodoList";
+import Header from "./Header";
 
 const LoadingPage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,6 +22,7 @@ const LoadingPage = () => {
   }
   return (
     <div className="content">
+      <Header />
       <TodoList />
     </div>
   );

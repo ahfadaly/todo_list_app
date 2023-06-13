@@ -3,17 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  transition: background-color 0.3s ease;
+}
 input:focus,
 button:focus {
   box-shadow: none !important;
 }
+
+/* Todo Item -------------------------------- */
 .todo-list {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
+
+/* loading -------------------------------- */
 .loading-page {
   background: #263038;
   display: flex;
@@ -51,4 +57,10 @@ button:focus {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* dark mode ----------------------------- */
+body.dark {
+  background-color: #333;
+  color: #ffff !important;
 }
